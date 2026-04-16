@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+}
+canvas {
+  background: #000;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.3);
+}
+.info {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
