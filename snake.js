@@ -92,7 +92,7 @@ function draw() {
     const centerX = obstacle.x * gridSize + gridSize / 2;
     const centerY = obstacle.y * gridSize + gridSize / 2;
     const radius = (gridSize - 2) / 2;
-    
+     
     ctx.beginPath();
     ctx.moveTo(centerX, centerY - radius); // Top
     ctx.lineTo(centerX + radius, centerY); // Right
